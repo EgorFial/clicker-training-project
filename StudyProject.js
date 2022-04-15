@@ -5,3 +5,10 @@ button.addEventListener('click', StartButton);
 button2.addEventListener('click',StartButton2);
 
 
+
+function ByActiveSkills(){
+
+
+
+    
+}
