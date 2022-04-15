@@ -1,0 +1,43 @@
+
+  .info {
+    width: 350px;
+    margin-left: 5px;
+    background-color: rgb(146, 146, 146);
+  }
+  .info-text{
+    margin-left: 50px;
+  }
+  .passive-skills{
+    background-color: rgb(150, 86, 86);
+    margin-left: 5px;
+  }
+  .active-skills{
+    background-color: rgb(147, 144, 81);
+    margin-left: 5px;
+  }
+  .clicker-iron-button{
+    display: inline-block;
+    margin: 50px;
+    width: 250px;
+    height: 250px;
+    background-image: url("texturIron.jpeg") ;
+    cursor: pointer;
+    border-radius: 100%;
+  
+    box-shadow: 0 3px 20px rgba(0,0,0,.25),
+    inset 0 2px 0 rgba(255,255,255,.6),
+    0 2px 0 rgba(0,0,0,.1),
+    inset 0 0 20px rgba(0,0,0,.1);
+  }
+  .table {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+  }
+  .container {
+   display: flex;
+  }
+  .box {
+    display: flex;
+
+  }
