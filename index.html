@@ -7,31 +7,29 @@
 <body>
   <p >Clicker Game</p>
 <div class="box">
- 
-
   <div class="info">
   <button id="Clicker-Button" class="clicker-iron-button"></button>
     <div class="info-text">
       <tbody >
         <tr>
           <td>Irons: </td>
-          <td class="Irons"><div id ="namegame"> 0 </div></td>
+          <td class="Irons"><span id ="ValueIron"> 0 </span></td>
         </tr>
         <p>
         <tr>
-          <td>Click per second: </td>
-          <td class="Click-per-second">0</td>
+          <td>Iron per second: </td>
+          <td class="Iron-per-second"><span id ="ValueIronPerSecond"> 0 </span></td>
         </tr>
         <p>
         <tr>
           <td>One Click: </td>
-          <td class="Click-One">1</td>
+          <td class="Click-One"><span id ="ValueIronOneClick"> 1 </span></td>
         </tr>
     </div>
   </div>
+  <div class="active-skills table">
+    <p>Active Skills</p>
 
-<div class="passive-skills table">
-  <p>Passive Skills</p>
   <table class="table">
     <tbody>
       <tr>
@@ -56,27 +54,27 @@
   </table>
 </div>
 
-<div class="active-skills table">
-  <p>Active Skills</p>
+<div class="passive-skills table">
+  <p>Passive Skills</p>
   <table class="table">
   <tbody>
     <tr>
       <td>Cklick</td>
-      <td class="buyskills-Cklick-Price">10</td>
-      <td class="buyskills-Cklick-lvl">1 lvl</td>
-      <td><button class="buyskills-Cklick buyskills">BUY</td>
+      <td class="buyskills-Cklick-Price"><span id ="Cklick-Price"> 10 </span></td>
+      <td class="buyskills-Cklick-lvl"><span id ="Cklick-lvl"> 1 </span> lvl</td>
+      <td><button id="CklickSkill" class="buyskills">BUY</td>
     </tr>
     <tr>
       <td>Muscles</td>
-      <td class="buyskills-Muscles-Price">100</td>
-      <td class="buyskills-Muscles-lvl">1 lvl</td>
-      <td><button class="buyskills-Muscles buyskills">BUY</td>
+      <td class="buyskills-Muscles-Price"><span id ="Muscles-Price"> 100 </span></td>
+      <td class="buyskills-Muscles-lvl"><span id ="Muscles-lvl"> 1 </span> lvl</td>
+      <td><button id ="MusclesSkill" class="buyskills">BUY</td>
     </tr>
     <tr>
       <td>Pickaxe</td>
-      <td class="buyskills-Pickaxe-Price">1000</td>
-      <td class="buyskills-Pickaxe-lvl">1 lvl</td>
-      <td><button class="buyskills-Pickaxe buyskills">BUY</td>
+      <td class="buyskills-Pickaxe-Price"><span id ="Pickaxe-Price"> 1000 </span></td>
+      <td class="buyskills-Pickaxe-lvl"><span id ="Pickaxe-lvl"> 1 </span> lvl</td>
+      <td><button id ="PickaxeSkill" class="buyskills">BUY</td>
     </tr>
   </tbody>
 </table>
