@@ -1,8 +1,24 @@
-const button = document.querySelector('input');
-const button2 = document.querySelector('.button_2');
-const p = document.querySelector('p');
-button.addEventListener('click', StartButton);
-button2.addEventListener('click',StartButton2);
+let iron = {
+    value: 0,
+    persecond: 0,
+    percklick: 1
+}
+const valueIron = document.getElementById('namegame');
+const buttonIronClick = document.getElementById('Clicker-Button');
+buttonIronClick.addEventListener('click', ClickOnIron);
+
+
+
+function ClickOnIron(){
+    iron.value = +iron.value + +iron.percklick;
+    console.log(iron.value);
+    valueIron.innerText= iron.value;
+    console.log(valueIron);
+};
+
+
+
+
 
 
 
