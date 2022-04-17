@@ -1,39 +1,4 @@
 
-  .info {
-    width: 350px;
-    margin-left: 5px;
-    background-color: rgb(146, 146, 146);
-  }
-  .info-text{
-    margin-left: 50px;
-  }
-  .passive-skills{
-    background-color: rgb(150, 86, 86);
-    margin-left: 5px;
-  }
-  .active-skills{
-    background-color: rgb(147, 144, 81);
-    margin-left: 5px;
-  }
-  .clicker-iron-button{
-    display: inline-block;
-    margin: 50px;
-    width: 250px;
-    height: 250px;
-    background-image: url("texturIron.jpeg") ;
-    cursor: pointer;
-    border-radius: 100%;
-    box-shadow: 10px 5px 5px rgb(105, 105, 105);
-    border: none;
-
-
-
-  }
-  .clicker-iron-button:active{
-    transform: translateY(8px);
-    box-shadow: 5px 0px 5px rgb(105, 105, 105);
-  }
-
   .buyskills{
     margin-left: 5px;
     text-align: center;
@@ -61,14 +26,89 @@
 
 
 
-  .table {
-    margin-left: 5px;
-    margin-right: 5px;
-    width: auto;
-  }
-  .container {
-   display: flex;
-  }
+ 
+
   .box {
-   display: flex;
+    display: flex;
+    background: linear-gradient(180deg, #FDD2B5 0%, #DE9392 70.31%, #32556D 100%);
+    mix-blend-mode: normal;
+    border-radius: 25px;
+  }
+
+  .info {
+    margin: 10px;
+    background: #455C71;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+
+  .clicker-iron-button{
+    display: inline-block;
+    margin: 50px;
+    width: 250px;
+    height: 250px;
+    background-image: url("PicturesForCklicker\texturIron.jpeg") ;
+    cursor: pointer;
+    border-radius: 100%;
+    box-shadow: 5px 5px 25px rgb(0, 0, 0);
+    border: none;
+
+
+
+  }
+  .clicker-iron-button:active{
+    transform: translateY(8px);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  }
+  .info-text{
+    margin-left: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(40, 52, 61, 1);
+
+  }
+   .p-skills{
+   
+    margin-left: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #28343D;
+
+   }
+
+
+
+
+
+  .window-skills {
+    width:20%;
+    margin: 10px;
+    background: #A4BBC8;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+ 
+  .tr-style{
+    margin: 5%;
+    width: 90%;
+    height: auto;
+    background: #567F9D;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+
+  }
+
+  .icon-img{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  
+    
+
   }
