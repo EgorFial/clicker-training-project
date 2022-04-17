@@ -1,14 +1,4 @@
 
-  .buyskills{
-    margin-left: 5px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: rgb(255, 255, 255);
-    background-color: #444e44;
-    border-color: rgb(58, 57, 57);
-    border-radius: 5px;
-  }
 
 
   .buyskills:hover{
@@ -26,17 +16,22 @@
 
 
 
- 
+ .img-ore{
+  width:250px;
+  height: 250px;
+
+
+ }
 
   .box {
     display: flex;
-    background: linear-gradient(180deg, #FDD2B5 0%, #DE9392 70.31%, #32556D 100%);
-    mix-blend-mode: normal;
+    background: linear-gradient(180deg, #AA88A9 43.75%, #32556D 100%);    mix-blend-mode: normal;
     border-radius: 25px;
   }
 
   .info {
     margin: 10px;
+    height: 551px;
     background: #455C71;
     box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -45,9 +40,6 @@
   .clicker-iron-button{
     display: inline-block;
     margin: 50px;
-    width: 250px;
-    height: 250px;
-    background-image: url("PicturesForCklicker\texturIron.jpeg") ;
     cursor: pointer;
     border-radius: 100%;
     box-shadow: 5px 5px 25px rgb(0, 0, 0);
@@ -86,7 +78,7 @@
 
 
   .window-skills {
-    width:20%;
+    width:30%;
     margin: 10px;
     background: #A4BBC8;
     box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
@@ -94,21 +86,57 @@
   }
  
   .tr-style{
-    margin: 5%;
-    width: 90%;
-    height: auto;
+    display:flex;
+    place-items: center;
+    margin: 2%;
+    width: 95%;
     background: #567F9D;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
-
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
 
   }
 
   .icon-img{
-    width: 200px;
-    border-radius: 28px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
-  
     
+    margin: 5px;
+    width:12%;
+    border: 5px solid #C4C4C4;
+    background: #C4C4C4;
+    border-radius: 12px;
+
+  }
+
+  .buyskills{
+    margin: auto;
+    margin-right: 1%;
+    border: none;
+    background: #C4C4C4;
+    border-radius: 20px;
+    width: 90px;
+
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+    color: #000000;
+  }
+
+
+  .PriceMargin{
+
+    margin: auto;
+    margin-right: 1%;;
+  }
+  .leftMargin{
+   
+    margin-left: 15px;
 
   }
